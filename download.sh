@@ -5,6 +5,7 @@ url_template="https://poizon-exports.storage.yandexcloud.net/exports/Sviridov_{c
 
 # Set the number of iterations
 iterations=22
+mkdir -p files
 
 # Loop through the specified number of iterations
 for ((counter=1; counter<=$iterations; counter++)); do
